@@ -1,0 +1,49 @@
+
+.formulario__input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid white;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 15px;
+}
+
+input {
+    padding: 0.9rem;
+    width: 200px;
+    border-color: transparent;
+    background: transparent;
+    border-bottom-style: 2px solid;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 2px 15px 7px -8px rgba(0,0,0,0.49);
+-moz-box-shadow: 2px 15px 7px -8px rgba(0,0,0,0.49);
+box-shadow: 2px 15px 7px -8px rgba(0,0,0,0.49);
+color: white;
+outline-style: none;
+font-family: 'Roboto', sans-serif;;
+}
+.btn__form{
+    margin-top: 4%;
+    padding: 0.5rem;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #D9B060;
+    border: black;
+    color: white;
+    transition: color .5s;
+ z-index: 1;
+}
+
+label{
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}

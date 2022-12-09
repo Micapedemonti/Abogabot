@@ -1,0 +1,24 @@
+*{
+  margin:0
+}
+.App{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  background: linear-gradient(to right bottom, #375d7c, #375d7c, #375d7c, #375d7c, #375d7c, #446684, #50708b, #5c7993, #778ea4, #92a5b6, #adbbc8, #c9d2da);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo__app{
+  height: 250px;
+}
+.logo{
+height: 100%;
+}
+body{
+  width: 100%;
+}

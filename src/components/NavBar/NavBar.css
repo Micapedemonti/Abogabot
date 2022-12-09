@@ -1,0 +1,19 @@
+.menu__icons{
+ color:white
+}
+.menu__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.menu__navegacion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 5px 10px 0px 0px;
+    color: white;
+}
